@@ -1,11 +1,11 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 }
 
-header{
+header {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -13,7 +13,7 @@ header{
     position: relative;
 }
 
-.overlay{
+.overlay {
     position: absolute;
     z-index: 1;
     top: 0;
@@ -26,7 +26,7 @@ header{
     background-color: #43474A;
 }
 
-nav{
+nav {
     position: absolute;
     top: 0;
     right: 0;
@@ -38,7 +38,7 @@ nav{
     padding: 25px 60px 0 60px;
 }
 
-nav li{
+nav li {
     border-radius: 10px;
     list-style: none;
     display: inline-block;
@@ -46,16 +46,17 @@ nav li{
     padding-right: 10px;
 }
 
-nav li span{
+nav li span {
     padding-left: 5px;
     background-color: crimson;
 
 }
 
-li a{
+li a {
     color: #fff;
     padding: 5px;
-    text-decoration: none;;
+    text-decoration: none;
+    ;
 }
 
 .cart ion-icon {
@@ -64,7 +65,7 @@ li a{
     padding-right: 5px;
 }
 
-.cart a{
+.cart a {
     background-color: crimson;
     border-radius: 8px;
     color: #fff;
@@ -72,22 +73,23 @@ li a{
     text-decoration: none;
 }
 
-.container{
+.container {
     display: flex;
     justify-content: center;
-    flex-wrap:wrap;
+    flex-wrap: wrap;
     margin-top: 50px;
-    padding-bottom: 100px;;
+    padding-bottom: 100px;
+    ;
 }
 
-.image{
-    margin-right: 20px; 
+.image {
+    margin-right: 20px;
     margin-left: 20px;
     position: relative;
     overflow: hidden;
 }
 
-.add-cart{
+.add-cart {
     position: absolute;
     width: 100%;
     transition: all 0.3s ease-in-out;
@@ -96,35 +98,39 @@ li a{
     text-align: center;
 }
 
-.image:hover .cart{
+.image:hover .cart {
     border-radius: 12px;
+    border: 0;
     bottom: 90px;
     opacity: 0.8;
     padding: 10px;
     text-decoration: none;
-    width: 300px;
+    width: 200px;
+    margin-left: 50px;
 }
+
 .name {
     font-size: 15px;
     width: 300px;
-    
+
 }
 
-.price{
+.price {
     font-size: 25px;
     padding-top: 10px;
     padding-bottom: 10px;
-    
+
 }
 
-h2{
+h2 {
     color: #fff;
 }
-.images{
+
+.images {
     height: 350px;
 }
 
-.logo{
+.logo {
     position: relative;
     margin-bottom: 300px;
     z-index: 2;
@@ -132,4 +138,39 @@ h2{
 
 }
 
+.pagar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.pagar>a {
+    background-color: #43474A;
+    border-radius: 8px;
+    color: #fff;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    border: 0;
+}
+
+.payment-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+}
+
+.payment-container>h3 {
+    text-align: center;
+    color: black;
+    font-size: 3em;
+    text-decoration: none;
+}
+
+.payment-container>h1 {
+    line-height: 3.5rem;
+}
