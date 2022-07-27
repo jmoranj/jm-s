@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Dancing Script', cursive;
+}
+
+body{
+    background-image: url(../img/capa.jpg);
+    background-repeat: no-repeat;
+    background-position: left 0%;
+    background-size: cover;
+}
+
+.title{
+    text-align: center;
+    color: #43474A;
+    font-size: 3em;
+    position: absolute;
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;
+    top: 15%;
+    left: 25%;
+    width: 50%;
+}
